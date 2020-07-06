@@ -1,6 +1,6 @@
 # ROSBAG-Anonymizer
 
-This is a tool to anonymize sensitive information(face & license plate) from real world pictures. I also implement the ROSBAG IO code which can extract pictures and write them back to ROSBAG files.
+This is a tool to anonymize sensitive information(faces & license plates) from real world pictures. I also implement the ROSBAG IO code which can extract pictures, blur them and then write back to the same ROSBAG files.
 
 > Author: **Yao Shao**
 >
@@ -10,7 +10,7 @@ This is a tool to anonymize sensitive information(face & license plate) from rea
 
 1. Extraction
 
-   use `bag_process.py` in the [bag_extract]( https://github.com/Yao-Shao/ROSBAG-Anonymizer/tree/master/bag_extract ) folder to extract pictures from ROSBAG files.
+   Extract pictures from the original ROSBAG files.
 
 2. Anonymization
 
@@ -18,13 +18,13 @@ This is a tool to anonymize sensitive information(face & license plate) from rea
 
    - clone the [repo]( https://github.com/understand-ai/anonymizer), build and test it.
    
-   - install all dependencies needed by
+   - install all dependencies needed.
 
      ```shell
      pip install -r requiremnts.txt
      ```
 
-   - use the `auto.py` in the [blur_gpu]( https://github.com/Yao-Shao/ROSBAG-Anonymizer/tree/master/blur_gpu) folder to automated blur pictures in multiple folders.
+   - you may find `auto.py` helpful if you want to blur pictures in multiple folders.
 
 
 3. Writing back

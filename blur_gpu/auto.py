@@ -9,10 +9,10 @@ os.system(cd)
 # act = 'source ./myvenv/bin/activate'
 # os.system(act)
 
-#cd2 = 'cd anonymizer'
+# cd2 = 'cd anonymizer'
 #os.system(cd2)
 
-bag_name = r'autoware-20190828184706'   
+bag_name = r'your rosbag name'   
 base_path = r'/media/msc/Elements/Research/self-driving/Anonymizer/bags'
 exe = r'PYTHONPATH=$PYTHONPATH:/media/msc/Elements/Research/self-driving/Anonymizer/blur_gpu/anonymizer python /media/msc/Elements/Research/self-driving/Anonymizer/blur_gpu/anonymizer/anonymizer/bin/anonymize.py'
 my_input = r' --input ' + base_path + '/' + bag_name + '/cam'
