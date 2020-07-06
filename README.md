@@ -29,7 +29,7 @@ This is a tool to anonymize sensitive information(faces & license plates) from r
 
 3. Writing back
 
-   use `write_bag.py` in the [write_bag]( https://github.com/Yao-Shao/ROSBAG-Anonymizer/tree/master/write_bag ) folder to write the anonymized data back to the original bag file.
+   use `write_bag.py` to write the anonymized data back to the original bag file.
 
 ## References
 
